@@ -1,3 +1,7 @@
+"""
+    Actividad 5: Usando bibliotecas
+"""
+
 import random # Biblioteca para generar numeros aleatorios
 import math # Biblioteca de funciones matematicas
 

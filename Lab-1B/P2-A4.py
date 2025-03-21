@@ -13,8 +13,8 @@ import math
 
 n = int(input("Ingrese un número n: "))
 
-numerador = ((1 + math.sqrt(5))**n) - ((1 - math.sqrt(5))**n)
-denominador = (2**n)*math.sqrt(5)
+numerador = (1 + math.sqrt(5))**n - (1 - math.sqrt(5))**n
+denominador = 2**n*math.sqrt(5)
 f_n = numerador/denominador
 
 print("El n-ésimo número de Fibonacci es:", round(f_n))
