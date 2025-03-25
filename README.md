@@ -30,12 +30,12 @@ Cada laboratorio cuenta con su propio directorio donde se encuentran los archivo
 
 ```
 /
-├── laboratorio-1A/
+├── Lab-1A/
 │   ├── Lab-1A.pdf
 │   ├── P1-A1.py
 │   ├── ...
 │   └── P3-A2.py
-├── laboratorio-1B/
+├── Lab-1B/
 │   ├── Lab-1B.pdf
 │   ├── P1-A1.py
 │   ├── ...
