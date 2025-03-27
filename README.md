@@ -7,7 +7,8 @@ Este repositorio contiene el desarrollo de los laboratorios del curso INF-129. A
 Actualmente, el repositorio cuenta con los siguientes laboratorios:
 
 ✅ **Laboratorio 1A**  
-✅ **Laboratorio 1B**
+✅ **Laboratorio 1B**  
+✅ **Laboratorio 2**
 
 Cada laboratorio cuenta con su propio directorio donde se encuentran los archivos correspondientes.
 
@@ -37,6 +38,11 @@ Cada laboratorio cuenta con su propio directorio donde se encuentran los archivo
 │   └── P3-A2.py
 ├── Lab-1B/
 │   ├── Lab-1B.pdf
+│   ├── P1-A1.py
+│   ├── ...
+│   └── P3-A3.py
+├── Lab-2/
+│   ├── Lab-2.pdf
 │   ├── P1-A1.py
 │   ├── ...
 │   └── P3-A3.py
