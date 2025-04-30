@@ -15,7 +15,7 @@ edad = int(input("Ingresa tu edad: "))
 
 if edad < 13:
     print("Eres un niño")
-elif 13 <= edad and edad <= 17:
+elif 13 <= edad <= 17:
     print("Eres un adolescente")
 elif edad >= 18:
     tiene_licencia = input("¿Tienes licencia de conducir? (s/n): ")

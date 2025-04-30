@@ -9,6 +9,9 @@ Actualmente, el repositorio cuenta con los siguientes laboratorios:
 ✅ **Laboratorio 1A**  
 ✅ **Laboratorio 1B**  
 ✅ **Laboratorio 2**
+🚧 **Laboratorio 3**
+🚧 **Laboratorio 4**
+✅ **Laboratorio 5**
 
 Cada laboratorio cuenta con su propio directorio donde se encuentran los archivos correspondientes.
 
@@ -43,6 +46,21 @@ Cada laboratorio cuenta con su propio directorio donde se encuentran los archivo
 │   └── P3-A3.py
 ├── Lab-2/
 │   ├── Lab-2.pdf
+│   ├── P1-A1.py
+│   ├── ...
+│   └── P3-A3.py
+├── Lab-3/
+│   ├── Lab-3.pdf
+│   ├── P1-A1.py
+│   ├── ...
+│   └── P3-A3.py
+├── Lab-4/
+│   ├── Lab-4.pdf
+│   ├── P1-A1.py
+│   ├── ...
+│   └── P3-A3.py
+├── Lab-5/
+│   ├── Lab-5.pdf
 │   ├── P1-A1.py
 │   ├── ...
 │   └── P3-A3.py
