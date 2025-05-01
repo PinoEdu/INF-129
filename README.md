@@ -11,7 +11,7 @@ Actualmente, el repositorio cuenta con los siguientes laboratorios y certamenes 
 ✅ **Laboratorio 2**  
 🚧 **Laboratorio 3**  
 🚧 **Laboratorio 4**  
-✅ **Laboratorio 5**
+✅ **Laboratorio 5**  
 📘 **Preparación Certamen 1**
 
 Cada laboratorio cuenta con su propio directorio donde se encuentran los archivos correspondientes.
