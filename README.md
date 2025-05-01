@@ -4,7 +4,7 @@ Este repositorio contiene el desarrollo de los laboratorios del curso INF-129. A
 
 ## 📂 Contenido
 
-Actualmente, el repositorio cuenta con los siguientes laboratorios:
+Actualmente, el repositorio cuenta con los siguientes laboratorios y certamenes desarrollados:
 
 ✅ **Laboratorio 1A**  
 ✅ **Laboratorio 1B**  
@@ -12,6 +12,7 @@ Actualmente, el repositorio cuenta con los siguientes laboratorios:
 🚧 **Laboratorio 3**  
 🚧 **Laboratorio 4**  
 ✅ **Laboratorio 5**
+📘 **Preparación Certamen 1**
 
 Cada laboratorio cuenta con su propio directorio donde se encuentran los archivos correspondientes.
 
@@ -64,5 +65,15 @@ Cada laboratorio cuenta con su propio directorio donde se encuentran los archivo
 │   ├── P1-A1.py
 │   ├── ...
 │   └── P2-A4.py
+├── Preparacion-C1/
+│   ├── C1_2020_1/
+│   │   ├── C1_2020_1_P2.pdf
+│   │   ├── C1_2020_1_P2.py
+│   │   └── C1_2020_1_P2.xlsx
+│   └── C1_2020_2/
+│       ├── C1_2020_2_P1P2.py
+│       ├── C1_2020_2_P3.py
+│       ├── C1_2020_2.pdf
+│       └── C1_2020_2.xlsx
 └── README.md
 ```
