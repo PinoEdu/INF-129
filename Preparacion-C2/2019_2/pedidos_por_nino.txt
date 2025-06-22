@@ -1,0 +1,23 @@
+Juanito:
+		2016:Peluche
+		2016:Pistola Nerf
+		2018:Lego
+		2018:Duende Mágico
+Susanita:
+		2015:Lego
+		2015:Microscopio
+		2015:Bicicleta
+		2017:Monopoli
+		2017:Lego
+		2017:Bicicleta
+		2017:Pelota
+Andreita:
+		2014:Microscopio
+		2014:Puzzle
+		2017:Lego
+		2017:Microscopio
+		2017:Pistola Nerf
+Pedrito:
+		2018:Autito Hot Wheels
+		2018:Pistola Nerf
+		2018:Scooter
