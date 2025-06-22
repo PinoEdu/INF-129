@@ -1,7 +1,7 @@
 def pedidos_por_nino(nombre_archivo):
     # Abre el archivo de pedidos en modo lectura
     archivo_pedidos = open(nombre_archivo, "r")
-    ninios = {}  # Diccionario para almacenar los pedidos de cada niño
+    diccionario_ninios = {}  # Diccionario para almacenar los pedidos de cada niño
 
     # Recorre cada línea (pedido) en el archivo
     for linea in archivo_pedidos:
@@ -11,27 +11,27 @@ def pedidos_por_nino(nombre_archivo):
         listado_juguetes = linea[2]      # Lista de juguetes pedidos (en texto, separados por coma)
 
         # Si el niño no está en el diccionario, lo agrega con su primer pedido (año y juguetes)
-        if nombre_ninio not in ninios:
-            ninios[nombre_ninio] = [[int(anio), listado_juguetes.split(",")]]
+        if nombre_ninio not in diccionario_ninios:
+            diccionario_ninios[nombre_ninio] = [[int(anio), listado_juguetes.split(",")]]
         else:
             # Si ya existe, agrega el nuevo pedido a la lista de ese niño
-            ninios[nombre_ninio].append([int(anio), listado_juguetes.split(",")])
+            diccionario_ninios[nombre_ninio].append([int(anio), listado_juguetes.split(",")])
     
     archivo_pedidos.close()  # Cierra el archivo de lectura
 
     # Ordena los pedidos de cada niño por año
-    for nombre_ninio in ninios:
-        ninios[nombre_ninio].sort()
+    for nombre_ninio in diccionario_ninios:
+        diccionario_ninios[nombre_ninio].sort()
     
     contador_ninios = 0  # Contador para saber cuántos niños hay
 
     # Abre el archivo de salida para escribir los resultados
     archivo_pedidos = open("pedidos_por_nino.txt", "w")
-    for nombre_ninio in ninios:
+    for nombre_ninio in diccionario_ninios:
         archivo_pedidos.write("{}:\n".format(nombre_ninio))  # Escribe el nombre del niño
 
         # Recorre los pedidos ordenados por año
-        for sublista in ninios[nombre_ninio]:
+        for sublista in diccionario_ninios[nombre_ninio]:
             anio = sublista[0]               # Año del pedido
             listado_juguetes = sublista[1]   # Lista de juguetes en ese pedido
             for juguete in listado_juguetes:
