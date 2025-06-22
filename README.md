@@ -13,6 +13,7 @@ Actualmente, el repositorio cuenta con los siguientes laboratorios y certamenes 
 🚧 **Laboratorio 4**  
 ✅ **Laboratorio 5**  
 📘 **Preparación Certamen 1**
+📘 **Preparación Certamen 2**
 
 Cada laboratorio cuenta con su propio directorio donde se encuentran los archivos correspondientes.
 
@@ -70,10 +71,20 @@ Cada laboratorio cuenta con su propio directorio donde se encuentran los archivo
 │   │   ├── C1_2020_1_P2.pdf
 │   │   ├── C1_2020_1_P2.py
 │   │   └── C1_2020_1_P2.xlsx
-│   └── C1_2020_2/
-│       ├── C1_2020_2_P1P2.py
-│       ├── C1_2020_2_P3.py
-│       ├── C1_2020_2.pdf
-│       └── C1_2020_2.xlsx
+│   ├── C1_2020_2/
+│   │   ├── C1_2020_2_P1P2.py
+│   │   ├── C1_2020_2_P3.py
+│   │   ├── C1_2020_2.pdf
+│   │   └── C1_2020_2.xlsx
+│   └── Resumen_C1_INF_129.pdf
+├── Preparacion-C2/
+│   ├── C2_2019_2/
+│   │   ├── 2019_2_C_FaseI_V2.pdf
+│   │   ├── cartas.txt
+│   │   ├── mas_pedidos.txt
+│   │   ├── P1.py
+│   │   ├── P2.py
+│   │   └── pedidos_por_nino.txt
+│   └── Resumen_C2_INF_129.pdf
 └── README.md
 ```
